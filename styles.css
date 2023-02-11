@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: #fff;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
+
+
+/* Left side */
+
+.left-side {
+    background-image: url(./images/photo-1585202900225-6d3ac20a6962.avif);
+    background-position: center;
+    background-size: cover;
+    width: 30vw;
+}
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgba(0, 0, 0, 0.6);
+    height: auto;
+    padding: 15px 0;
+    
+    position: relative;
+    top: 20vh;
+    
+    font-size: 70px;
+}
+
+.logo {
+    height: 100px; 
+}
+
+
+
+
+
+/* Right side */
+
+.right-side {
+    width: 70vw;
+    
+    background-color: rgb(230, 230, 230);
+    color: #000;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.right-top {
+    width: 100%;
+}
+
+
+
+
+
+/* Form */
+
+.form-container {
+    background-color: #fff;
+    width: auto;
+    padding: 50px 0 50px 50px;
+}
+
+.form-box {
+    display: flex;
+    width: 400px;
+    gap: 100px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
