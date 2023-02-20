@@ -9,64 +9,64 @@
     <body>
         <div class="main">
             <div class="left-side">
-                <div class="logo-box">
-                    <img class="logo" src="./images/odin-lined.png" alt="picture of odin.">
-                    <div class="logo-text">ODIN</div>
+                <div class="image-container">
+                    <img src="./images/odin-lined.png" alt="odin">
+                    <div class="odin">ODIN</div>
                 </div>
             </div>
-            <div class="right-side">    
-                <div class="right-top">
-                    <p>
+            <div class="right-side">
+                <div class="top">
+                    <div class="top-text">
                         This is not a real online service! You know you need something<br>
                         like this in your life to help you realize your deepest dreams.<br>
                         Sign up <em>now</em> to get started.
-                    </p>
-                    <p>You <em>know</em> you want to.</p>
+                    </div>
+                    <div class="top-text-bottom">
+                        You <em>know</em> you want to.
+                    </div>
                 </div>
-
-                <form class="form-middle">
-                    <div class="form-container">
-                        <p>Lets's do this!</p>
-                        
-                        <div class="form-box">
-                            <div class="form-left">
-                                <div class="input-box">
+                <div class="middle">
+                    <form action="">
+                        <div class="form-background">
+                            <div class="form-text">
+                                Let's do this!
+                            </div>
+                            <div class="items">
+                                <div class="item">
                                     <label for="first-name">FIRST NAME</label>
                                     <input id="first-name" name="first-name" type="text">
                                 </div>
-                                <div>
-                                    <label for="email">EMAIL</label>
-                                    <input id="email" name="email" type="email">
-                                </div>
-                                <div>
-                                    <label for="password">PASSWORD</label>
-                                    <input id="password" name="password" type="password">
-                                </div>
-                            </div>
-                            
-                            <div class="form-right">
-                                <div>
+                                <div class="item">
                                     <label for="last-name">LAST NAME</label>
                                     <input id="last-name" name="last-name" type="text">
                                 </div>
-                                <div>
+                                <div class="item">
+                                    <label for="email">EMAIL</label>
+                                    <input id="email" name="email" type="email">
+                                </div>
+                                <div class="item">
                                     <label for="phone-number">PHONE NUMBER</label>
                                     <input id="phone-number" name="phone-number" type="tel">
                                 </div>
-                                <div>
+                                <div class="item">
+                                    <label for="password">PASSWORD</label>
+                                    <input class="error" id="password" name="password" type="password">
+                                </div>
+                                <div class="item">
                                     <label for="confirm-password">CONFIRM PASSWORD</label>
-                                    <input id="confirm-password" name="confirm-password" type="password">
+                                    <input class="error" id="confirm-password" name="confirm-password" type="password">
                                 </div>
                             </div>
                         </div>
+                        <div>
+                            <button>CREATE ACCOUNT</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="bottom">
+                    <div class="bottom-text">
+                        Already have an account? <a href="">Log in</a>
                     </div>
-
-                    <button>Create Account</button>
-                </form>
-                <div class="right-bottom">
-                    <p>
-                        Already have an account? Log in
-                    </p>
                 </div>
             </div>
         </div>
