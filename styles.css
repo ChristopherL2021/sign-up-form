@@ -102,7 +102,7 @@ form {
     width: 400px;
 }
 
-.error {
+.error:invalid {
     border: 2px solid red;
 }
 
